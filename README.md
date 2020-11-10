@@ -1,6 +1,6 @@
 # Angular - Student app
-  -Frontend projekt napravljen u Angularu
+  -Frontend project made in Angular
 
-  -Aplikacija za studente 
+  -Application for students 
   
-  -Projekt sa faksa
+  -College project
