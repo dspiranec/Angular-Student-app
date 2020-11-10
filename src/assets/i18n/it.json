@@ -1,0 +1,56 @@
+{
+    "language": {
+        "croatian": "Croata",
+        "english": "Inglese"
+    },
+    "navbar": {
+        "username": "Nome utente",
+        "role": "Ruolo",
+        "login": "Accesso",
+        "logout": "Disconnettersi"
+    },
+    "login": {
+        "title": "Accesso",
+        "username": "Nome utente",
+        "usernameInsert": "Inserisci il tuo nome utente",
+        "password": "Parola d'ordine",
+        "passwordInsert": "Inserisci la tua password",
+        "loginButton": "Accesso",
+        "loginError": "Accesso fallito! Controlla le tue credenziali e riprova."
+    },
+    "detail": {
+        "details": "Dettagli dello studente",
+        "ects": "numero di ECTS",
+        "tuition": "Lo studente deve pagare le tasse scolastiche",
+        "collegies": "Collegi studenteschi",
+        "returnButton": "Ritorna alla pagina precedente"
+    },
+    "forbbiden": {
+        "deny": "Non hai il permesso",
+        "returnButton": "Ritorna alla pagina precedente"
+    },
+    "main": {
+        "students": "Studentesse"
+    },
+    "notFound": {
+        "notFounded": "pagina non trovata",
+        "returnButton": "Ritorna alla pagina precedente"
+    },
+    "update": {
+        "insert": "Dettagli dello studente",
+        "firstName": "nome di battesimo",
+        "lastName": "Cognome",
+        "collegies": "Collegi ai quali sono assegnati gli studenti",
+        "submitButton": "Aggiungi studente",
+        "ects": "numero di ECTS"
+    },
+    "studMain": {
+        "list": "Elenco degli studenti",
+        "insert": "Dettagli dello studente",
+        "firstName": "nome di battesimo",
+        "lastName": "Cognome",
+        "collegies": "Collegi ai quali sono assegnati gli studenti",
+        "submitButton": "Aggiungi studente",
+        "ects": "numero di ECTS"
+    }
+}

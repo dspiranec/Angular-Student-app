@@ -1,0 +1,57 @@
+{
+    "language": {
+        "croatian": "Hrvatski",
+        "english": "Engleski"
+    },
+    "navbar": {
+        "username": "Korisničko ime",
+        "role": "Uloga",
+        "login": "Prijava",
+        "logout": "Odjava"
+
+    },
+    "login": {
+        "title": "Prijava",
+        "username": "Korisničko ime",
+        "usernameInsert": "Unesite korisničko ime",
+        "password": "lozinka",
+        "passwordInsert": "Unesite lozinku",
+        "loginButton": "Prijava",
+        "loginError": "Neuspjesna prijava. Provjerite pdoatke i poksuatje ponovo."
+    },
+    "detail": {
+        "details": "Detalji studenta",
+        "ects": "Broj ECTS bodova",
+        "tuition": "Student treba platiti školarinu",
+        "collegies": "Kolegij na kojima je student upisan",
+        "returnButton": "Povratak na prethodnu stranicu"
+    },
+    "forbbiden": {
+        "deny": "Nemate pravo pristupa traženoj stranici",
+        "returnButton": "Povratak na početnu stranicu"
+    },
+    "main": {
+        "students": "Studenti"
+    },
+    "notFound": {
+        "notFounded": "Tražena stranica nije pronađena",
+        "returnButton": "Povratak na početnu stranicu"
+    },
+    "update": {
+        "insert": "Detalji studenta",
+        "firstName": "Ime",
+        "lastName": "Prezime",
+        "collegies": "Kolegij na kojima je student upisan",
+        "submitButton": "Unesi studenta",
+        "ects": "Broj ECTS bodova"
+    },
+    "studMain": {
+        "list": "Popis studenata",
+        "insert": "Detalji studenta",
+        "firstName": "Ime",
+        "lastName": "Prezime",
+        "collegies": "Kolegij na kojima je student upisan",
+        "submitButton": "Unesi studenta",
+        "ects": "Broj ECTS bodova"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "language": {
+        "croatian": "Croatian",
+        "english": "English"
+    },
+    "navbar": {
+        "username": "Username",
+        "role": "Role",
+        "login": "Login",
+        "logout": "Logout"
+
+    },
+    "login": {
+        "title": "Login",
+        "username": "Username",
+        "usernameInsert": "Insert your username",
+        "password": "Password",
+        "passwordInsert": "Insert your password",
+        "loginButton": "Login",
+        "loginError": "Login failed! Check your credentials and try again."
+    },
+    "detail": {
+        "details": "Student details",
+        "ects": "number of ECTS:",
+        "tuition": "Student must pay tuition.",
+        "collegies": "Student's collegies",
+        "returnButton": "Return to the previous page"
+    },
+    "forbbiden": {
+        "deny": "U do not have permission",
+        "returnButton": "Return to previous page"
+    },
+    "main": {
+        "students": "Students"
+    },
+    "notFound": {
+        "notFounded": "Page not found",
+        "returnButton": "Return to previous page"
+    },
+    "update": {
+        "insert": "Student details",
+        "firstName": "First name",
+        "lastName": "Last name",
+        "collegies": "Collegies on which students is assigned to",
+        "submitButton": "Add Student",
+        "ects": "number of ECTS"
+    },
+    "studMain": {
+        "list": "Student list",
+        "insert": "Student details",
+        "firstName": "First name",
+        "lastName": "Last name",
+        "collegies": "Collegies on which students is assigned to",
+        "submitButton": "Add Student",
+        "ects": "number of ECTS"
+    }
+}

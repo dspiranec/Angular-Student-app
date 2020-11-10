@@ -1,0 +1,42 @@
+<div data-aos="fade-up" class="visina" *ngIf="userService.isRoleAdmin()">
+    <h2 class="display-3">{{ 'update.insert' | translate }}</h2>
+    <form [formGroup]="exampleForm">
+        <div>
+            <label class="h5">{{ 'update.firstName' | translate }}:
+                <div class="m-1">
+                    <input class="form-control" formControlName="firstName"  #firstName />
+                </div>
+            </label>
+        </div>
+        <div>
+            <label class="h5">{{ 'update.lastName' | translate }}:
+                <div class="m-1">
+                    <input class="form-control" formControlName="firstName"  #lastName />
+                </div>
+            </label>
+        </div>
+        <div>
+            <label class="h5">JMBAG:
+                <div class="m-1">
+                    <input  class="form-control" formControlName="firstName"  #jmbag />
+                </div>
+            </label>
+        </div>
+        <div>
+            <label class="h5">{{ 'update.ects' | translate }}:
+                <div class="m-1">
+                    <input  class="form-control" formControlName="firstName" type="number" #numberOfEcts />
+                </div>
+            </label>
+        </div>
+        <div class="border-top my-5"></div>
+        <button class="btn btn-outline-light btn-lg"
+            (click)="add(firstName.value, lastName.value, jmbag.value,
+            +numberOfEcts.value);
+            firstName.value=''; lastName.value=''; jmbag.value='';
+            numberOfEcts.value=''">
+            {{ 'update.submitButton' | translate }}
+        </button>
+    </form>
+    
+</div>

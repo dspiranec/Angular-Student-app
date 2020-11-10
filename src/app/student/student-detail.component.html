@@ -1,0 +1,42 @@
+<div data-aos="fade-up" class="visina" *ngIf="student">
+    <h2>{{student.jmbag}} - {{'detail.details' | translate}}</h2>
+    <div class=" d-flex justify-content-center">
+        <div class="border border-light p-2 m-2"
+        style=" display: block; width: 250px;">
+            <span>JMBAG: </span>{{student.jmbag}}
+        </div>
+    </div>
+    <div class=" d-flex justify-content-center">  
+        <div class="border border-light p-2 m-2"
+        style="display: block; width: 250px;">
+            <span>{{'detail.ects' | translate}}: </span>{{student.numberOfEcts}}
+        </div>
+    </div>
+    <div class=" d-flex justify-content-center">
+        <div class="border border-light p-2 m-2" *ngIf="student.paidTuition"
+        style="display: block; width: 250px;">
+            {{'detail.tuition' | translate}}. 
+        </div>
+    </div>
+
+    <div class=" d-flex justify-content-center">
+        <h2>{{'detail.collegies' | translate}}:</h2>
+    
+        <ul style="list-style-type: none;">
+            <li  class="m-2 p-2 min-sizing-li"
+            *ngFor="let course of courses"
+            style=" align-items: center;">            
+                <div class="border border-light p-2 m-2"
+                style=" display: block; width: 250px;">
+                    {{course.name}}
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="col text-center">
+        <a class="btn btn-primary" routerLink="/students">
+          <i class="text-light"></i> {{'detail.returnButton' | translate}}
+        </a>
+      </div>
+    
+</div>
